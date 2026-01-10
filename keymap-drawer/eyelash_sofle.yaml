@@ -126,7 +126,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: LAYER0, h: toggle}
   - {t: '`', s: '~'}
-  - '@'
+  - '}'
   - layer2
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
