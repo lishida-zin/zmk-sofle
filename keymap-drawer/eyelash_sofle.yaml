@@ -59,13 +59,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - sub
   - $$mdi:keyboard-space$$
-  - {t: layer3, h: toggle}
+  - {t: houw, h: toggle}
   - $$mdi:keyboard-space$$
   - layer2
   - $$mdi:apple-keyboard-option$$
   - H
   - $$mdi:backspace-reverse-outline$$
-  layer3:
+  houw:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
