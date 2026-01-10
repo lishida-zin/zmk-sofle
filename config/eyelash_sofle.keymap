@@ -89,7 +89,7 @@
 &none      &trans  &kp LALT  &trans  &kp CARET  &kp SPACE    &to 0      &kp GRAVE  &kp AT  &mo 3      &kp GRAVE  &trans
             >;
 
-            display-name = "layer3";
+            display-name = "houw";
         };
 
         sab {
