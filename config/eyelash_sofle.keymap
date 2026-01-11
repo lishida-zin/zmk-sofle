@@ -110,7 +110,7 @@
 &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans           &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans           &trans           &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans           &trans           &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans           &trans           &trans           &trans        &kp LA(F4)      &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer4";
