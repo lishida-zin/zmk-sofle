@@ -60,8 +60,8 @@ layers:
   - {t: '=', h: mousAr, s: +}
   - $$mdi:keyboard-space$$
   - Gui+$$mdi:keyboard-space$$
-  - {t: '`', h: mousAr, s: '~'}
-  - {t: '[', h: layer2, s: '{'}
+  - {t: '`', h: layer2, s: '~'}
+  - {t: '[', h: mousAr, s: '{'}
   - {t: \, h: layer4, s: '|'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
@@ -125,8 +125,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ',', s: <}
   - {t: '0', s: )}
   - {t: ., s: '>'}
@@ -190,8 +190,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
