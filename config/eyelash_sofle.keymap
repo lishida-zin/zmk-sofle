@@ -74,7 +74,7 @@
 &kp TAB    &kp Q      &kp W         &kp E       &kp R        &kp T        &kp DOWN_ARROW   &kp Y        &kp U       &kp I            &kp O    &kp P     &kp MINUS
 &kp LSHFT  &kp A      &kp S         &kp D       &kp F        &kp G        &kp LEFT_ARROW   &kp H        &kp J       &kp K            &kp L    &kp SEMI  &kp RET
 &kp LCTRL  &kp Z      &kp X         &kp C       &kp V        &kp B        &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA        &kp DOT  &kp FSLH  &mt RCTRL RG(H)
-&none      &lt 5 DEL  &kp LEFT_GUI  &lt 4 RBKT  &lt 3 EQUAL  &kp SPACE    &kp LG(SPACE)    &lt 3 GRAVE  &lt 2 LBKT  &lt 4 BACKSLASH  &to 1    &kp DEL
+&none      &lt 6 DEL  &kp LEFT_GUI  &lt 4 RBKT  &lt 3 EQUAL  &kp SPACE    &kp LG(SPACE)    &lt 3 GRAVE  &lt 2 LBKT  &lt 5 BACKSLASH  &to 1    &kp DEL
             >;
 
             display-name = "main";
@@ -102,25 +102,35 @@
             display-name = "layer2";
         };
 
-        mous {
+        mousAr {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp LCLK       &mkp RCLK       &msc SCRL_DOWN   &trans
+&trans     &trans     &trans          &trans          &trans           &trans            &trans  &trans          &trans          &trans          &trans           &trans     &trans
+&trans     &trans     &trans          &mmv MOVE_UP    &trans           &trans            &trans  &trans          &trans          &mmv MOVE_UP    &trans           &trans     &trans
+&trans     &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP      &trans  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans
+&mkp RCLK  &mkp LCLK  &msc SCRL_LEFT  &kp UP          &msc SCRL_RIGHT  &msc SCRL_DOWN    &trans  &msc SCRL_DOWN  &msc SCRL_LEFT  &kp UP          &msc SCRL_RIGHT  &mkp LCLK  &mkp RCLK
+&trans     &kp LEFT   &kp DOWN        &kp RIGHT       &trans           &trans            &trans  &trans          &trans          &kp LEFT        &kp DOWN         &kp RIGHT
             >;
 
-            display-name = "mous";
+            display-name = "mousAr";
         };
 
         alt,key {
             bindings = <
-&trans         &trans          &trans          &trans        &kp LA(F4)       &trans    &trans  &trans  &trans          &trans          &trans        &trans           &trans
-&kp LA(TAB)    &trans          &trans          &kp UP        &trans           &trans    &trans  &trans  &trans          &kp UP          &trans        &trans           &trans
-&kp LA(LSHFT)  &trans          &kp LEFT        &kp DOWN      &kp RIGHT        &trans    &trans  &trans  &kp LEFT        &kp DOWN        &kp RIGHT     &trans           &kp RA(ENTER)
-&kp LA(LCTRL)  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans         &trans          &trans          &trans        &trans           &trans    &trans  &trans  &trans          &trans          &trans        &trans
+&trans         &trans          &trans          &trans        &kp LA(F4)       &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(TAB)    &trans          &trans          &kp UP        &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(LSHFT)  &trans          &kp LEFT        &kp DOWN      &kp RIGHT        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp RA(ENTER)
+&kp LA(LCTRL)  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans          &trans          &trans        &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
