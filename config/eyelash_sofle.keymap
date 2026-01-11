@@ -104,11 +104,11 @@
 
         mous {
             bindings = <
-&trans      &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7          &kp F8          &kp F9           &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END         &mmv MOVE_UP    &kp HOME         &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &mkp LCLK       &mkp RCLK       &msc SCRL_DOWN   &trans
+&trans  &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans  &trans
+&trans  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans  &mkp LCLK       &mkp RCLK       &msc SCRL_DOWN   &trans
             >;
 
             display-name = "mous";
@@ -116,11 +116,11 @@
 
         alt,key {
             bindings = <
-&trans     &trans          &trans          &trans        &kp LA(F4)       &trans    &trans  &trans  &trans          &trans          &trans        &trans           &trans
-&kp TAB    &trans          &trans          &kp UP        &trans           &trans    &trans  &trans  &trans          &kp UP          &trans        &trans           &trans
-&kp LSHFT  &trans          &kp LEFT        &kp DOWN      &kp RIGHT        &trans    &trans  &trans  &kp LEFT        &kp DOWN        &kp RIGHT     &trans           &kp RA(ENTER)
-&kp LCTRL  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans     &trans          &trans          &trans        &trans           &trans    &trans  &trans  &trans          &trans          &trans        &trans
+&trans         &trans          &trans          &trans        &kp LA(F4)       &trans    &trans  &trans  &trans          &trans          &trans        &trans           &trans
+&kp LA(TAB)    &trans          &trans          &kp UP        &trans           &trans    &trans  &trans  &trans          &kp UP          &trans        &trans           &trans
+&kp LA(LSHFT)  &trans          &kp LEFT        &kp DOWN      &kp RIGHT        &trans    &trans  &trans  &kp LEFT        &kp DOWN        &kp RIGHT     &trans           &kp RA(ENTER)
+&kp LA(LCTRL)  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans         &trans          &trans          &trans        &trans           &trans    &trans  &trans  &trans          &trans          &trans        &trans
             >;
         };
 
