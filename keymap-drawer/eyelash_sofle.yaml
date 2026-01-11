@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: Gui+H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - {t: ']', h: '$$mdi:apple-keyboard-command$$', s: '}'}
   - {t: '=', h: mousAr, s: +}
