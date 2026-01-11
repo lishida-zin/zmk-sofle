@@ -70,11 +70,11 @@
 
         main {
             bindings = <
-&kp ESC    &kp N1     &kp N2        &kp N3      &kp N4       &kp N5       &kp UP_ARROW     &kp N6       &kp N7      &kp N8           &kp N9         &kp N0    &kp BACKSPACE
-&kp TAB    &kp Q      &kp W         &kp E       &kp R        &kp T        &kp DOWN_ARROW   &kp Y        &kp U       &kp I            &kp O          &kp P     &kp MINUS
-&kp LSHFT  &kp A      &kp S         &kp D       &kp F        &kp G        &kp LEFT_ARROW   &kp H        &kp J       &kp K            &kp L          &kp SEMI  &kp RET
-&kp LCTRL  &kp Z      &kp X         &kp C       &kp V        &kp B        &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA        &kp DOT        &kp FSLH  &mt RCTRL RG(H)
-&none      &lt 5 DEL  &kp LEFT_GUI  &lt 3 RBKT  &lt 2 EQUAL  &kp SPACE    &kp LG(SPACE)    &lt 2 GRAVE  &lt 1 LBKT  &lt 4 BACKSLASH  &kp RIGHT_ALT  &kp DEL
+&kp ESC    &kp N1     &kp N2        &kp N3             &kp N4       &kp N5       &kp UP_ARROW     &kp N6       &kp N7      &kp N8           &kp N9         &kp N0    &kp BACKSPACE
+&kp TAB    &kp Q      &kp W         &kp E              &kp R        &kp T        &kp DOWN_ARROW   &kp Y        &kp U       &kp I            &kp O          &kp P     &kp MINUS
+&kp LSHFT  &kp A      &kp S         &kp D              &kp F        &kp G        &kp LEFT_ARROW   &kp H        &kp J       &kp K            &kp L          &kp SEMI  &kp RET
+&kp LCTRL  &kp Z      &kp X         &kp C              &kp V        &kp B        &kp RIGHT_ARROW  &kp N        &kp M       &kp COMMA        &kp DOT        &kp FSLH  &mt RCTRL RG(H)
+&none      &lt 4 DEL  &kp LEFT_ALT  &mt LEFT_GUI RBKT  &lt 2 EQUAL  &kp SPACE    &kp LG(SPACE)    &lt 2 GRAVE  &lt 1 LBKT  &lt 3 BACKSLASH  &kp RIGHT_ALT  &kp DEL
             >;
 
             display-name = "main";
@@ -102,16 +102,6 @@
             >;
 
             display-name = "mousAr";
-        };
-
-        alt,key {
-            bindings = <
-&kp LA(N1)     &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)    &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)     &kp LA(N0)   &trans        &trans
-&kp LA(TAB)    &kp LA(Q)   &kp LA(W)   &kp LA(E)   &kp LA(R)   &kp LA(T)     &trans  &kp LA(Y)   &kp LA(U)   &kp LA(I)      &kp LA(O)    &kp LA(P)     &trans
-&kp LA(LSHFT)  &kp LA(A)   &kp LA(S)   &kp LA(D)   &kp LA(F)   &kp LA(G)     &trans  &kp LA(H)   &kp LA(J)   &kp LA(K)      &kp LA(L)    &kp LA(SEMI)  &kp RA(ENTER)
-&kp LA(LCTRL)  &kp LA(Z)   &kp LA(X)   &kp LA(C)   &kp LA(V)   &kp LA(B)     &trans  &kp LA(N)   &kp LA(M)   &kp LA(COMMA)  &kp LA(DOT)  &kp LA(FSLH)  &trans
-&none          &trans      &trans      &trans      &trans      &trans        &trans  &trans      &trans      &trans         &trans       &trans
-            >;
         };
 
         layer_6 {
