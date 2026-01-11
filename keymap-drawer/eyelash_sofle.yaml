@@ -57,7 +57,7 @@ layers:
   - layer4
   - $$mdi:apple-keyboard-command$$
   - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
-  - {t: Sft+6, h: mous, s: Sft+^}
+  - {t: ^, h: mous}
   - $$mdi:keyboard-space$$
   - {t: houw, h: toggle}
   - {t: '`', h: mous, s: '~'}
