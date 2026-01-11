@@ -52,16 +52,16 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - \
+  - {t: '$$mdi:apple-keyboard-control$$', h: 'alt,key'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer4}
   - $$mdi:apple-keyboard-command$$
-  - {t: '}', h: 'alt,key'}
+  - {t: ']', h: 'alt,key', s: '}'}
   - {t: '=', h: mous, s: +}
   - $$mdi:keyboard-space$$
   - Gui+$$mdi:keyboard-space$$
   - {t: '`', h: mous, s: '~'}
-  - {t: '}', h: layer2}
+  - {t: '[', h: layer2, s: '{'}
   - {t: \, h: 'alt,key', s: '|'}
   - Gui+H
   - $$mdi:backspace-reverse-outline$$
@@ -312,11 +312,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
