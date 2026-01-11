@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - layer4
   - $$mdi:apple-keyboard-command$$
-  - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
+  - {t: '[', h: key, s: '{'}
   - {t: ^, h: mous}
   - $$mdi:keyboard-space$$
   - Gui+$$mdi:keyboard-space$$
   - {t: '`', h: mous, s: '~'}
   - {t: '@', h: layer2}
-  - {t: ']', h: '$$mdi:apple-keyboard-option$$', s: '}'}
+  - {t: ']', h: key, s: '}'}
   - Gui+H
   - $$mdi:backspace-reverse-outline$$
   hou:
@@ -316,13 +316,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer4:
