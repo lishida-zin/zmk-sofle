@@ -74,10 +74,20 @@
 &kp TAB     &kp Q   &kp W         &kp E                      &kp R        &kp T        &kp DOWN_ARROW   &kp Y        &kp U          &kp I                   &kp O      &kp P     &kp MINUS
 &kp LSHFT   &kp A   &kp S         &kp D                      &kp F        &kp G        &kp LEFT_ARROW   &kp H        &kp J          &kp K                   &kp L      &kp SEMI  &kp RET
 &kp LCTRL   &kp Z   &kp X         &kp C                      &kp V        &kp B        &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA               &kp DOT    &kp FSLH  &kp AT
-&kp C_MUTE  &mo 3   &kp LEFT_GUI  &mt LEFT_ALT LEFT_BRACKET  &lt 2 CARET  &kp SPACE    &to 0            &lt 2 GRAVE  &lt 1 AT_SIGN  &mt RALT RIGHT_BRACKET  &kp LG(H)  &kp DEL
+&kp C_MUTE  &mo 4   &kp LEFT_GUI  &mt LEFT_ALT LEFT_BRACKET  &lt 3 CARET  &kp SPACE    &kp LG(SPACE)    &lt 3 GRAVE  &lt 2 AT_SIGN  &mt RALT RIGHT_BRACKET  &kp LG(H)  &kp DEL
             >;
 
             display-name = "main";
+        };
+
+        hou {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
 
         nom {
