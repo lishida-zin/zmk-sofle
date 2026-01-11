@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  main:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -56,14 +56,14 @@ layers:
   - $$mdi:volume-off$$
   - layer4
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - mous
+  - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
+  - {t: Sft+6, h: mous, s: Sft+^}
   - $$mdi:keyboard-space$$
   - {t: houw, h: toggle}
-  - $$mdi:keyboard-space$$
-  - layer2
-  - $$mdi:apple-keyboard-option$$
-  - H
+  - {t: '`', h: mous, s: '~'}
+  - {t: '@', h: layer2}
+  - {t: ']', h: '$$mdi:apple-keyboard-option$$', s: '}'}
+  - Gui+H
   - $$mdi:backspace-reverse-outline$$
   houw:
   - $$mdi:keyboard-esc$$
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - $$mdi:keyboard-space$$
-  - {t: LAYER0, h: toggle}
+  - {t: main, h: toggle}
   - {t: '`', s: '~'}
   - '}'
   - layer2
@@ -190,7 +190,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-down$$
