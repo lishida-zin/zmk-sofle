@@ -116,11 +116,11 @@
 
         alt,key {
             bindings = <
-&trans     &trans  &trans    &trans    &kp LA(F4)  &trans    &trans  &trans  &trans          &trans          &trans        &trans           &trans
-&kp TAB    &trans  &trans    &kp UP    &trans      &trans    &trans  &trans  &trans          &kp UP          &trans        &trans           &trans
-&kp LSHFT  &trans  &kp LEFT  &kp DOWN  &kp RIGHT   &trans    &trans  &trans  &kp LEFT        &kp DOWN        &kp RIGHT     &trans           &kp RA(ENTER)
-&kp LCTRL  &trans  &trans    &trans    &trans      &trans    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans     &trans  &trans    &trans    &trans      &trans    &trans  &trans  &trans          &trans          &trans        &trans
+&trans     &trans          &trans          &trans        &kp LA(F4)       &trans    &trans  &trans  &trans          &trans          &trans        &trans           &trans
+&kp TAB    &trans          &trans          &kp UP        &trans           &trans    &trans  &trans  &trans          &kp UP          &trans        &trans           &trans
+&kp LSHFT  &trans          &kp LEFT        &kp DOWN      &kp RIGHT        &trans    &trans  &trans  &kp LEFT        &kp DOWN        &kp RIGHT     &trans           &kp RA(ENTER)
+&kp LCTRL  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans     &trans          &trans          &trans        &trans           &trans    &trans  &trans  &trans          &trans          &trans        &trans
             >;
         };
 
