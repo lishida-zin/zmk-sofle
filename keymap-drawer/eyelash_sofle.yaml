@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: layer4}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: LANGUAGE 5, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '`', h: '$$mdi:apple-keyboard-command$$', s: '~'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '4'}
-  - {t: ']', h: '$$mdi:apple-keyboard-command$$', s: '}'}
+  - {t: ']', h: _, s: '}'}
   - {t: '=', h: mousAr, s: +}
   - {t: '$$mdi:keyboard-space$$', h: '4'}
   - Gui+H
@@ -315,7 +315,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:apple-keyboard-option$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
