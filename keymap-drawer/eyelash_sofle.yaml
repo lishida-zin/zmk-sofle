@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: \, s: '?'}
+  - {t: /, h: NUBS, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: layer4}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
