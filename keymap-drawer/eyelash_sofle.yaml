@@ -54,13 +54,13 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: layer4}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '`', h: '$$mdi:apple-keyboard-command$$', s: '~'}
+  - {t: AC DESKTOP SHOW ALL APPLICATIONS, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '4'}
   - {t: ']', h: _, s: '}'}
   - {t: '=', h: mousAr, s: +}
   - {t: '$$mdi:keyboard-space$$', h: '4'}
   - Gui+H
-  - {t: '`', h: mousAr, s: '~'}
+  - {t: AC DESKTOP SHOW ALL WINDOWS, h: mousAr}
   - {t: '[', h: layer2, s: '{'}
   - {t: '-', h: \, s: _}
   - $$mdi:apple-keyboard-option$$
