@@ -74,7 +74,7 @@
 &kp TAB       &kp Q         &kp W         &kp E        &kp R        &kp T                  &kp DOWN_ARROW   &kp Y        &kp U        &kp I                       &kp O          &kp P          &kp MINUS
 &kp LSHFT     &kp A         &kp S         &kp D        &mt GRAVE F  &kp G                  &kp LEFT_ARROW   &kp H        &mt GRAVE J  &kp K                       &kp L          &kp SEMI       &kp ENTER
 &kp LCTRL     &kp Z         &kp X         &kp C        &kp V        &kp B                  &kp RIGHT_ARROW  &kp N        &kp M        &kp COMMA                   &kp DOT        &mt BSLH FSLH  &lt 3 APOS
-&none         &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 EQUAL  &lt 2 RBKT   &mt LG(LS(S)) SPACE    &kp RG(H)        &lt 2 ENTER  &lt 1 MINUS  &mt BACKSLASH LEFT_BRACKET  &kp RIGHT_ALT  &kp DEL
+&none         &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 EQUAL  &lt 2 RBKT   &mt LG(LS(S)) SPACE    &kp RG(H)        &lt 2 GRAVE  &lt 1 MINUS  &mt BACKSLASH LEFT_BRACKET  &kp RIGHT_ALT  &kp DEL
             >;
 
             display-name = "main";
