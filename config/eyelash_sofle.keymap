@@ -118,11 +118,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans        &kp LA(F4)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ALT  &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans  &trans        &kp LA(F4)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(TAB)    &trans  &trans        &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(LSHFT)  &trans  &trans        &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(LCTRL)  &trans  &trans        &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans  &kp LEFT_ALT  &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
