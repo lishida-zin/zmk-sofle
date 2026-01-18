@@ -58,7 +58,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: '4'}
   - {t: ']', h: _, s: '}'}
   - {t: '=', h: mousAr, s: +}
-  - {t: '$$mdi:keyboard-space$$', h: '4'}
+  - {t: '$$mdi:keyboard-space$$', h: Gui+Sft+S}
   - Gui+H
   - {t: AC DESKTOP SHOW ALL WINDOWS, h: mousAr}
   - {t: '[', h: layer2, s: '{'}
@@ -318,7 +318,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
