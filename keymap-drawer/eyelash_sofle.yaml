@@ -60,7 +60,7 @@ layers:
   - {t: ']', h: mousAr, s: '}'}
   - {t: '$$mdi:keyboard-space$$', h: Gui+Sft+S}
   - Gui+H
-  - {t: '$$mdi:keyboard-return$$', h: mousAr}
+  - {t: '`', h: mousAr, s: '~'}
   - {t: '-', h: layer2, s: _}
   - {t: '[', h: \, s: '{'}
   - $$mdi:apple-keyboard-option$$
