@@ -51,14 +51,14 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: \, s: '?'}
+  - {t: /, h: Gui+Sft+S, s: '?'}
   - {t: '''', h: layer4, s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '=', h: '4', s: +}
   - {t: ']', h: mousAr, s: '}'}
-  - {t: '$$mdi:keyboard-space$$', h: Gui+Sft+S}
+  - $$mdi:keyboard-space$$
   - Gui+H
   - {t: '`', h: mousAr, s: '~'}
   - {t: '-', h: layer2, s: _}
