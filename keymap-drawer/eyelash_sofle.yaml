@@ -31,11 +31,11 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: '`'}
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - {t: J, h: '`'}
+  - J
   - K
   - L
   - {t: ;, s: ':'}
