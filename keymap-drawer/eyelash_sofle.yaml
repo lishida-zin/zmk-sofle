@@ -35,11 +35,11 @@ layers:
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
+  - N
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -47,12 +47,12 @@ layers:
   - V
   - B
   - $$mdi:arrow-right-bold$$
-  - N
+  - J
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: Gui+Sft+S, s: '?'}
-  - {t: '''', h: layer4, s: '"'}
+  - {t: Sft+/, s: 'Sft+?'}
+  - {t: '$$mdi:keyboard-return$$', h: layer4}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
