@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - Gui+H
   - {t: '`', h: mousAr, s: '~'}
-  - {t: '-', h: layer2, s: _}
+  - {t: \, h: layer2, s: '|'}
   - {t: '[', h: \, s: '{'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
