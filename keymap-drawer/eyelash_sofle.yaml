@@ -35,7 +35,7 @@ layers:
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - N
+  - J
   - K
   - L
   - {t: ;, s: ':'}
@@ -62,7 +62,7 @@ layers:
   - Gui+H
   - {t: '`', h: mousAr, s: '~'}
   - {t: \, h: layer2, s: '|'}
-  - {t: '[', h: \, s: '{'}
+  - {t: '[', h: Sft+H, s: '{'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
   layer2:
